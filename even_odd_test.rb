@@ -7,4 +7,7 @@ class TestEvenOdd < Minitest::Test #names the type of test you are running
 		assert_equal(1, 1) #asserts that a given is equal to what is tried
 	end
 
+	def test_input_1_returns_odd
+		assert_equal("odd",evenoddfunction(1))
+	end
 end
