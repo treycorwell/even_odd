@@ -1,3 +1,5 @@
-def evenoddfunction()
+def evenoddfunction(number)
 	"odd"
 end
+
+
