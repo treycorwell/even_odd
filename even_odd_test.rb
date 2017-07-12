@@ -19,8 +19,8 @@ class TestEvenOdd < Minitest::Test #names the type of test you are running
 		assert_equal("odd",evenoddfunction(3))
 	end
 
-	def test_imput_wombat_returns_no_wombats_allowed
-		assert_equal("no wombats allowed",evenoddfunction("wombat"))
+	def test_imput_is_string_not_allowed
+		assert_equal("only numbers allowed",evenoddfunction("meeeeee"))
 	end
 
 end
