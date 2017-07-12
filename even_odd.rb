@@ -1,0 +1,3 @@
+def evenoddfunction()
+	"odd"
+end
