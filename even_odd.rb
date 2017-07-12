@@ -1,10 +1,10 @@
 def evenoddfunction(number)
-	if number % 2 == 0 # % (mod) divides any number, == means that any remainder is equal to number given, in this case (0), or no remainder 
+
+	if number == "wombat"
+		"no wombats allowed"
+	elsif number % 2 == 0
 		"even"
-	elsif
-		"odd"	
-	else "wombat"
-	"no wombats allowed"
+	else 
+		"odd"
 	end
 end
-
